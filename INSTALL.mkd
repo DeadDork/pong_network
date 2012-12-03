@@ -1,0 +1,29 @@
+Building Instructions
+=====================
+
+These instruction should let you compile this version of pong in a terminal.
+
+Needed
+------
+
+To build, you need:
+*	Some kind of terminal emulator (tested on rxvt-unicode-256color).
+*	A C compiler (confirmed on gcc 4.6.3).
+*	The ncurses C library.
+*	BASH (confirmed on BASH 4.2.24).
+
+To Compile
+----------
+
+Run the make_ncurses.sh utility:
+	./make_ncurses pong.c
+
+(One day I will prep the Makefile. This is too much of a proto-type, and I don't know the make utility well enough to write a generic Makefile that lets you throw in header files as arguments.)
+
+To Play
+-------
+
+To play:
+	./pong
+
+(N.B. This program is absurdly far away from being done, so there's not much "playing" that you can do!)
